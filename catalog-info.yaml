@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: apmo-pi-planner-app
+  description: Portfolio planning dashboard for PI planning
+  annotations:
+    github.com/project-slug: modmed/apmo-pi-planner-app
+spec:
+  type: website
+  lifecycle: experimental
+  owner: apmo
